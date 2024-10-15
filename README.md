@@ -1,5 +1,9 @@
 # Android app and Arduino code for optogenetics power source control
 
+
+
+[![DOI](https://zenodo.org/badge/873167413.svg)](https://doi.org/10.5281/zenodo.13937430)
+
 ## A tool to control the frequency of light blinking in optogenetics stimulation experiments
 
 This project allows to control the frequency of an electric signal sent by an Arduino to an amplifier. The aplifier is then ment to be used as a light source for optogenetic stimulation experiments. The control of the frequency is done thorugh an Android app. The comunication between the Arduino and the app is posible through a bluetooth Arduino module. The app lets the user controll the following:
@@ -30,3 +34,8 @@ This code is not perfect nor efficient. So I aknowledge some things have improve
 - I found difficult to make sure that when a variable was changed in the app it was properly recieved and also changed in the Arduino. My solution to this was to make a loop where both the Arduino and the app show the value they have stored for a given variable, and exit the loop just until they agree in the value of such variable. You don't want to run a whole experiment just to realize (or worst not realize) that it was run in different conditions than what you wanted! Thus I more than double checked it with this solution (or so I hope).
 - Related to the previous, my code might not have proper exceptions handling in general.
 - It might not be clear to the app user that all variables are reset when the bluetooth conection is stablished for the first time or when it is restablished after a loss of conection occured.
+
+## How to cite this project
+
+If you use my software, please cite it using the DOI provided at the top.
+
