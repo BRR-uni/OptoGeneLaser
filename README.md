@@ -1,4 +1,4 @@
-# OptoGeneLaser Android API and Arduino code for optogenetics power source control
+# Android app and Arduino code for optogenetics power source control
 
 ## A tool to control the frequency of light blinking in optogenetics stimulation experiments
 
@@ -11,7 +11,7 @@ This project allows to control the frequency of an electric signal sent by an Ar
 ## How to install the OptoGeneLaser project
 
 To get the complete tool to work it is necessary to have an Arduino board connected through the right pins to a bluetooth module and to the input or the aplifier used for the stimulation experiments. Outside of the hardware instructions, the app and the arduino code instalation should follow:
-1. Download the API file to a smartphone
+1. Download the .apk file to a smartphone
 2. Open the file and follow the instructions provided by the device. It might require to allow installation of software outside of playstore.
 3. Once the app is installed, it might be required as well to give bluetooth management permissions to the app.
 4. For the Arduino code setup, Arduino IDE should be installed beforehandstart
